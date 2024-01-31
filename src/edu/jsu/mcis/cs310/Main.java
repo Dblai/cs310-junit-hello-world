@@ -17,7 +17,14 @@ public class Main {
     }
     
     public String reverse(String message) {
-        return message;
+        int lengthOfMessage = message.length();
+        char[] reversedMessage = new char[length];
+
+        for (int i = 0; i < length; i++){
+            reversedMessage[i] = message.charAt(length - 1 - i);
+        }
+
+      
     }
     
 }
